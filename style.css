@@ -1,0 +1,106 @@
+body{
+
+font-family: Arial;
+margin:0;
+background:#f4f4f4;
+
+}
+
+header{
+
+background-image: url("productos/ropa2.avif");
+color:rgb(0, 0, 0);
+text-align:center;
+padding:20px;
+
+}
+
+.header-content{
+background: rgba(255, 255, 255, 0.384);
+padding: 20px 40px;
+border-radius: 15px;
+
+
+}
+
+.productos{
+
+display:grid;
+grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+gap:25px;
+padding:30px;
+justify-items: center;
+
+}
+
+.card{
+background:white;
+width:200px;
+height:380px;
+border-radius:5px;
+box-shadow:0 5px 10px rgba(0,0,0,0.2);
+padding:10px;
+text-align:center;
+
+display:flex;
+flex-direction:column;
+justify-content:space-between;
+}
+
+.card img{
+
+width:100%;
+height: 180px;
+object-fit:cover;
+border-radius:10px;
+
+}
+
+.precio{
+
+color:green;
+font-weight:bold;
+font-size:20px;
+
+}
+
+.whatsapp-container{
+position:fixed;
+bottom:20px;
+right:20px;
+display:flex;
+flex-direction:column;
+align-items:flex-end;
+z-index:1000;
+}
+
+.whatsapp-btn{
+background:#25D366;
+border:none;
+border-radius:50%;
+width:60px;
+height:60px;
+cursor:pointer;
+box-shadow:0 4px 10px rgba(0,0,0,0.3);
+}
+
+.whatsapp-btn img{
+width:35px;
+}
+
+.whatsapp-options{
+display:none;
+flex-direction:column;
+margin-bottom:10px;
+}
+
+.whatsapp-options a{
+background:white;
+padding:10px 15px;
+margin:5px 0;
+border-radius:10px;
+text-decoration:none;
+color:black;
+box-shadow:0 4px 10px rgba(0,0,0,0.2);
+font-size:14px;
+}
