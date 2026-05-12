@@ -46,7 +46,7 @@ function seleccionarProducto(nombre, precio) {
 // Esta función se ejecuta al elegir el número
 function enviarWhatsApp(numero) {
 
-    let mensaje = `Hola, quiero comprar (inserte nombre del producto y captura de pantalla). ¿Sigue disponible?`;
+    let mensaje = `Hola, quiero comprar está blusa ¿Sigue disponible? (inserte nombre del producto y captura de pantalla).`;
 
     let url = `https://wa.me/${numero}?text=${encodeURIComponent(mensaje)}`;
 
